@@ -1,6 +1,8 @@
 import { endWith } from 'rxjs/operators';
 import { of } from 'rxjs';
 
+// src: https://www.learnrxjs.io/learn-rxjs/operators/combination/endwith
+
 const srcList$ = of('Hello', 'Friend', 'Goodbye');
 
 // 1
